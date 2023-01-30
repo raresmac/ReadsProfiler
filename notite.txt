@@ -1,0 +1,37 @@
+DE MODIFICAT DOCUMENTATIA!!! (thread pentru fiecare utilizator si greseala de la conectare client)
+----------------------------------------------------------------------
+PENTRU COD:
+de facut recomandarile!!!
+de pus taguri!! (sau sa le scot daca nu am timp)
+de rezolvat bug o carte apare de doua ori la unele genuri (apare rar spre deloc, de ce??)
+de facut stergeri! (optional)
+
+dupa rezolvarea celor de mai sus, de sters toate informatiile din server si populata baza de date
+----------------------------------------------------------------------
+PENTRU XML:
+
+Formatul ar trebui sa fie tipizat, ceva in genul:
+<carte>
+	<titlu>Titlul cartii</titlu>
+	<ISBN>ISBN</ISBN>
+	<autor>Autorul cartii</autor>
+	<editura>Editura cartii</editura>
+	...(anul aparitiei, rating, numarul de review-uri, numarul de persoane care au citit cartea, poate mai adaug altele)...
+	<gen>Genul 1 al cartii</gen>
+	<id_gen>Id-ul genului 1 al cartii</id_gen>
+	<gen>Genul 2 al cartii></gen> (optional)
+	<id_gen>Id-ul genului 2 al cartii</id_gen> (optional)
+	<tag>Tagul 1 al cartii</tag>
+	<id_tag>Id-ul tagului 1 al cartii</id_tag>
+	<tag>Tagul 2 al cartii</tag> (optional)
+	<id_tag>Id-ul tagului 2 al cartii</id_tag> (optional)
+	...
+</carte>
+
+----------------------------------------------------------------------
+PENTRU SITE IN SINE:
+
+Sa adaug taguri la fiecare carte, pe care le poti cauta si in functie de cati oameni aleg un tag (pe langa adaugat, le poti vota), ele vor avea prioritate la cautarea acelui tag
+
+Cand sunt pe pagina unui autor/edituri, sa apara ce carti am mai citit de acel autor/acea editura.
+----------------------------------------------------------------------
